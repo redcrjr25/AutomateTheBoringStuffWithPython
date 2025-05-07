@@ -8,3 +8,5 @@ while True:
     if password == 'swordfish':
         break
 print('Access granted.')
+
+# use of continue statement in infinite loop
