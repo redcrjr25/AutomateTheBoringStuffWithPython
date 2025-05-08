@@ -1,0 +1,31 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "npm",
+            "script": "install",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "type": "npm",
+            "script": "watch",
+            "isBackground": true,
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Format and Fix Blank Lines",
+            "type": "shell",
+            "command": "black ${file} && python ${workspaceFolder}/fix_blank_lines.py ${file}",
+            "problemMatcher": [],
+            "runOptions": {
+                "reevaluateOnRerun": true
+            }
+        }
+    ]
+}
