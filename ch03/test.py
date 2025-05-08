@@ -1,4 +1,5 @@
 def hello(name):
     print("hello " + name)
-hello("Carol")
+
+hello("John")
 hello("Paul")
