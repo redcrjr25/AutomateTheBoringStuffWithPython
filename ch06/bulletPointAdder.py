@@ -2,7 +2,7 @@
 #! python3
 # bulletPointAdder.py - Adds Wikipedia bullet points to the start
 # of each line of text on the clipboard.
-import pyperclip # type: ignore
+import pyperclip  # type: ignore
 
 text = pyperclip.paste()
 # Sepaarate lines and add stars.
