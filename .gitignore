@@ -2,3 +2,6 @@
 __pycache__/
 *.pyc
 *.DS_Store  # macOS-specific
+
+echo "ch14/*.json" >> .gitignore
+echo "ch14/*.pickle" >> .gitignore
