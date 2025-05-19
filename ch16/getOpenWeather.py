@@ -5,11 +5,11 @@ if len(sys.argv) < 2:
     sys.exit()
 
 location = sys.argv[1]
-APPID = "9f3c154da217f1ba7f89c9b835ba0222"
+APPID = "1017e9154bbf1417b440db46b410de3a"
 
 url = "https://api.openweathermap.org/data/2.5/weather"
 
-params = {"q": location, "appid": APPID}
+params = {"q": location, "appid": APPID, "units": "imperial"}
 
 print("Making request to:", url)
 print("With params:", params)
