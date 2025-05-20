@@ -5,3 +5,8 @@ __pycache__/
 
 echo "ch14/*.json" >> .gitignore
 echo "ch14/*.pickle" >> .gitignore
+
+ch18/credentials-sheets.json
+ch18/token.json
+ch18/credentials-sheets.json
+ch18/token.json
